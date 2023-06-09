@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding-top: 30px;
+}
+
+.TweetsContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Tweet{
+  padding: 20px;
+}
+
+.RatingsBar{
+  width: 80%;
+  margin: 2.5px 10px;
+}
+
+.RatingDiv{
+  display: flex;
+  flex-flow: row;
+  padding-bottom: 20px;
+}
+
+.LoadingScreen{
+  position: fixed;
+  height: 100vh;
+  background-color: #282c34;
+}
